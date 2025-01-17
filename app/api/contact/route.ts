@@ -20,8 +20,8 @@ export async function POST(request: Request) {
     // Send email using Resend
     await resend.emails.send({
       from: 'Your Website <onboarding@resend.dev>', // Update this
-      to: 'your-email@example.com', // Update this
-      reply_to: email,
+      to: 'jordantyrill@gmail.com', // Update this
+      replyTo: email, // Corrected the property name
       subject: `Contact Form: ${subject}`,
       html: `
         <h2>New Contact Form Submission</h2>
