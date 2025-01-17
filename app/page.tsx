@@ -141,7 +141,7 @@ export default function Page() {
     {
       title: 'Eventify',
       description: 'A budget calculator tool built with react,tailwind css and firebase',
-      tags: ['React', 'Socket.io', 'Express']
+      tags: ['React', 'Tailwind css', 'Firebase']
     }
   ];
 

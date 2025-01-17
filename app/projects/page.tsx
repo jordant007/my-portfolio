@@ -25,7 +25,7 @@ export default function Page() {
       image: '/screenshots/clozzet.png.png',
       tags: ['React', 'Tailwind css', 'Firebase'],
       github: 'https://github.com/jordant007/clozzet',
-      live: 'https://clozzet.vercel.app/',
+      live: 'https://dashboard-demo.com',
       highlights: [
         'Implemented authentication using firebase',
         'Implemented UI using react and tailwindcss',
