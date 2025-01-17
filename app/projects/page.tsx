@@ -25,7 +25,7 @@ export default function Page() {
       image: '/screenshots/clozzet.png.png',
       tags: ['React', 'Tailwind css', 'Firebase'],
       github: 'https://github.com/jordant007/clozzet',
-      live: 'https://dashboard-demo.com',
+      live: 'https://clozzet.vercel.app/',
       highlights: [
         'Implemented authentication using firebase',
         'Implemented UI using react and tailwindcss',
@@ -38,7 +38,7 @@ export default function Page() {
       image: '/screenshots/eventify.png.png',
       tags: ['React', 'Tailwind css', 'Firebase'],
       github: 'https://github.com/jordant007/eventify',
-      live: 'https://ai-chat-demo.com',
+      live: 'https://eventify-omega-lyart.vercel.app/',
       highlights: [
         'Built the UI with React and Tailwind CSS',
         'Implemented authentication with Firebase',
