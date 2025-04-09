@@ -15,7 +15,7 @@ const technologies = [
   { name: 'Tailwind CSS', icon: <div className="w-12 h-12 text-teal-400"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.373 0 12c0 6.627 5.372 12 12 12s12-5.373 12-12c0-6.627-5.372-12-12-12zm7.5 9.333c-.667 3.5-3.333 4.833-5.5 4.833-.667 0-1.5-.166-2.5-.667 1-1.333 2.166-2 3.5-2 1.167 0 1.833.5 2 1.5.5-2.333-.167-3.833-2-3.833-1 0-2 .5-3 2 .667.5 1.667.833 3.167.833 3.167 0 5.5-2 5.5-5zm-5.833 5.167c-.667 3.5-3.333 4.833-5.5 4.833-.667 0-1.5-.166-2.5-.667 1-1.333 2.167-2 3.5-2 1.167 0 1.833.5 2 1.5.5-2.333-.167-3.833-2-3.833-1 0-2 .5-3 2 .667.5 1.667.833 3.167.833 3.167 0 5.5-2 5.5-5z" /></svg></div> },
   { name: 'Node.js', icon: <div className="w-12 h-12 text-green-500"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 10.533c0-1.067-.827-1.827-2.2-1.827h-2.6c-1.2 0-2 .6-2 1.8 0 .733.6 1.233 1.667 1.4l2.067.333c1.267.2 2 .833 2 2 0 1.067-.8 1.8-2.2 1.8h-3c-1.173 0-2.2-.6-2.667-1.733v1.333h-2.4V9.733h2.4v1.133c.467-1.133 1.6-1.866 3.267-1.866h2.4c2.067 0 3.733 1.2 3.733 3.533z" /></svg></div> },
   { name: 'MongoDB', icon: <div className="w-12 h-12 text-green-600"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C9.863 0 8.573 2.39 8.573 2.39 6.037 6.446 3.688 10.252 4.19 14.77 4.697 19.445 8.738 24 12 24s7.303-4.555 7.81-9.23c.502-4.518-1.846-8.324-4.382-12.38 0 0-1.29-2.39-3.428-2.39zm0 22.146c-3.273 0-6.657-3.3-6.168-7.796.473-4.358 2.787-7.946 4.164-10.594 0 0 .494-.858 1.004-1.498 0 .6.084 1.27.166 1.865.523 4.53 2.255 8.91 4.134 12.178-.756-.735-1.457-1.536-1.845-2.395-.52-.777-.713-1.656-.713-2.52 0-.455.17-1.106.527-1.455.454-.445.986-.607 1.643-.67.21-.017.423-.015.636-.015-.006.01.473 3.3.755 4.33.347 1.323 1.59 2.897 2.174 3.407-.525 1.165-1.845 2.797-3.866 3.693z" /></svg></div> },
-  { name: 'Firebase', icon: <div className="w-12 h-12 text-yellow-500"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M3.89 15.672L11.96.616a.798.798 0 011.404 0l3.656 7.316-2.897 3.285-.683-.856-2.835 3.211 4.115 5.172c.144.188.18.435.09.652-.089.217-.287.366-.51.392L1.572 20.173c-.248.029-.496-.07-.676-.266a.806.806 0 01-.18-.695l3.176-9.54zm12.797-4.878l.011.012.05-.055.034.043-3.675 3.2.25-.33-.312.369.002.003 3.64-3.197zm2.144 2.456l.155-.128.084-.072-.084.072-4.16 5.267.242-.3-.21.31 4.034-5.149zM17.69 1.42c.206-.145.473-.168.695-.06s.366.366.37.62L20.797 15.84l.003.007-.148-.02-6.13-7.704-2.41-3.04 5.579-3.664z" /></svg></div> },
+  { name: 'Firebase', icon: <div className="w-12 h-12 text-yellow-500"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M3.89 15.672L11.96.616a.798.798 0 011.404 0l3.656 7.316-2.897 3.285-.683-.856-2.835 3.211 4.115 5.172c.144.188.18.435.09.652-.089.217-.287.366-.51.392L1.572 20.173c-.248.029-.496-.07-.676-.266a.806.806 0 01-.18-.695l3.176-9.54zm12.797-4.878l.011.012.05-.055.034.043-3.675 3.2.25-.33-.312.369.002.003 3.64-3.197zm2.144 2.456l.155-.128.084-.072-.084.072-4.16 5.267.242-.3-.21.31 4.034-5.149zM17.69 1.42c.206-.145.473-.168.695-.06s.366.366.37.62L20.797 15.84l.003.007-.148-.20-6.13-7.704-2.41-3.04 5.579-3.664z" /></svg></div> },
   { name: 'WordPress', icon: <div className="w-12 h-12 text-blue-500"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.372 0 0 5.373 0 12c0 6.627 5.372 12 12 12s12-5.373 12-12c0-6.627-5.372-12-12-12zm-4.5 18l-1.8-7.2h-3l-.5 1.5h-3L6 18h3l-.5-1.5h2L9.5 18zm9-6l-3 6h-1.5L12 10.5 10.5 18h-1.5l-3-6h2L12 7.5l2.5 6h2z" /></svg></div> },
   { name: 'React Native', icon: <div className="w-12 h-12 text-blue-400"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C6.478 0 2 4.477 2 10c0 3.531 1.835 6.627 4.598 8.402C6.3 19.44 6 20.185 6 21c0 1.105.895 2 2 2s2-.895 2-2c0-.766-.318-1.46-.82-1.86C10.54 20.548 11.27 21 12 21s1.46-.452 1.82-1.14C13.68 19.54 14 20.235 14 21c0 1.105.895 2 2 2s2-.895 2-2c0-.816-.299-1.56-.598-2.402C20.165 16.627 22 13.531 22 10c0-5.523-4.478-10-10-10zm0 18.586c-1.452 0-2.637-.895-3.032-2.15C8.387 15.165 9.64 14 12 14c2.36 0 3.613 1.165 3.032 2.436C14.637 17.691 13.452 18.586 12 18.586zm0-6.986c-1.778 0-3.126-1.343-3.126-3.126 0-1.784 1.343-3.126 3.126-3.126s3.126 1.342 3.126 3.126c0 1.783-1.342 3.126-3.126 3.126z" /></svg></div> },
 ];
@@ -176,6 +176,14 @@ export default function Page() {
               </motion.div>
             ))}
           </motion.div>
+          <motion.div className="text-center mt-8" variants={fadeInUp}>
+            <Link
+              href="/projects"
+              className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 px-8 py-3 rounded-full font-medium inline-flex items-center gap-2 transition-all duration-300 shadow-lg hover:shadow-purple-500/20"
+            >
+              See More Projects <ArrowRight className="h-5 w-5" />
+            </Link>
+          </motion.div>
         </motion.section>
       </motion.div>
 
@@ -189,7 +197,7 @@ export default function Page() {
             </div>
             <div className="space-y-4">
               <h3 className="text-xl font-semibold text-white">Navigation</h3>
-              <div className="flex flex-col gap-3">
+              <div className="flex flexed-col gap-3">
                 <Link href="/" className="text-gray-400 hover:text-indigo-400 transition-colors duration-300">Home</Link>
                 <Link href="/projects" className="text-gray-400 hover:text-indigo-400 transition-colors duration-300">Projects</Link>
                 <Link href="/contact" className="text-gray-400 hover:text-indigo-400 transition-colors duration-300">Contact</Link>

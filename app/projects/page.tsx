@@ -45,6 +45,32 @@ export default function Page() {
         'Used Firebase as a database',
       ],
     },
+    {
+      title: 'Drive Easy',
+      description: 'A micro car rental platform developed with Next.js, MongoDB, Express, and Node.js.',
+      image: '/screenshots/drive-easy.png', // Update with actual image path
+      tags: ['Next.js', 'MongoDB', 'Express', 'Node.js'],
+      github: 'https://github.com/jordant007/DriveEasy', // Update with actual GitHub link
+      live: 'https://www.canva.com/design/DAGi2FK1tQM/HAcqa_D8vmgHX671HOARPw/edit?utm_content=DAGi2FK1tQM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton', // Update with actual live URL
+      highlights: [
+        'Built a scalable rental platform with Next.js',
+        'Implemented MongoDB for efficient data storage',
+        'Created RESTful APIs using Express and Node.js',
+      ],
+    },
+    {
+      title: 'Elegant Shoes',
+      description: 'An e-commerce website platform for selling shoes made with WordPress.',
+      image: '/screenshots/elegant-shoes.png', // Update with actual image path
+      tags: ['WordPress', 'WooCommerce', 'PHP'],
+      github: null, // Set to null if no GitHub repo (WordPress sites typically don't have public repos)
+      live: 'https://elegant-shoes-demo.com', // Update with actual live URL
+      highlights: [
+        'Customized WordPress theme for shoe retail',
+        'Integrated WooCommerce for e-commerce functionality',
+        'Implemented responsive design for all devices',
+      ],
+    },
   ];
 
   const fadeInUp = {
@@ -134,15 +160,17 @@ export default function Page() {
                 </ul>
               </div>
               <div className="flex gap-4">
-                <a
-                  href={project.github}
-                  className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Github className="h-5 w-5" />
-                  View Code
-                </a>
+                {project.github && (
+                  <a
+                    href={project.github}
+                    className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Github className="h-5 w-5" />
+                    View Code
+                  </a>
+                )}
                 <a
                   href={project.live}
                   className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
