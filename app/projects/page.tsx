@@ -64,7 +64,7 @@ export default function Page() {
       image: '/screenshots/elegant-shoes.png', // Update with actual image path
       tags: ['WordPress', 'WooCommerce', 'PHP'],
       github: null, // Set to null if no GitHub repo (WordPress sites typically don't have public repos)
-      live: 'https://elegant-shoes-demo.com', // Update with actual live URL
+      live: 'https://http://elegantshoes.free.nf/', // Update with actual live URL
       highlights: [
         'Customized WordPress theme for shoe retail',
         'Integrated WooCommerce for e-commerce functionality',
